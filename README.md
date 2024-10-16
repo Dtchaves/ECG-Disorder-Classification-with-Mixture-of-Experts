@@ -12,3 +12,7 @@ The MoE framework combines the opinions of multiple models (experts) to make mor
 
 - **Code Implementation**: The source code for training the MoE model on the CODE-15 dataset.
 - **Results**: Evaluation metrics demonstrating the model's performance compared to standard classification approaches.
+
+## Acknowledgments
+
+This work was partially funded by CNPq, CAPES, and FAPEMIG, as well as CIIA-Saude. We also thank the Telehealth Center of Minas Gerais for access to the data and the productive discussions within the scope of this work
