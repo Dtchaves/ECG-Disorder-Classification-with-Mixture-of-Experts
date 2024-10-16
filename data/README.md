@@ -1,0 +1,5 @@
+The Mixture of Experts (MoE) model was developed using the publicly available CODE-15 dataset, which constitutes 15% of the original CODE database. This dataset contains a total of **345,779 ECG exams** from **233,770 patients**. Each ECG in the dataset is classified into one of six clinical labels associated with rhythm and conduction disorders. These labels are crucial for clinical cardiology practice, as they can indicate increased risks of cardiovascular events, including stroke, heart failure, and in severe cases, sudden cardiac death.
+
+The model's performance was assessed using the CODE-TEST set, which comprises **827 ECG exams**. These exams were labeled through a rigorous consensus process involving two to three cardiology specialists to ensure high-quality annotations.
+
+To evaluate the models on the CODE-TEST set, we conducted **1,000 bootstrap resampling iterations** to enhance robustness. Each output node's classification threshold was determined using the validation partition for all models, and the results were subsequently compared.
